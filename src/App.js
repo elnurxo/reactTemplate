@@ -1,9 +1,16 @@
 import { Fragment } from 'react';
+import Header from './Header';
+import Navbar from './Navbar';
+import Content from './Content';
+import Footer from './Footer';
 
 function App() {
   return (
     <Fragment>
-      <h1>Hey World, react me!</h1>
+      <Navbar/>
+      <Header/>
+      <Content/>
+      <Footer/>
     </Fragment>
   );
 }
