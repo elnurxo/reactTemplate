@@ -15,7 +15,7 @@ function About() {
         </div>
         <div className="w3-row-padding w3-grayscale">
           {employees.map((employee)=>
-            <div className="w3-col l3 m6 w3-margin-bottom">
+            <div className="w3-col l3 m6 w3-margin-bottom" key={employee.id}>
             <img src={employee.image} alt={employee.fname} style={{width: '100%'}} />
             <h3>{employee.fname}</h3>
             <p className="w3-opacity">{employee.position}</p>

@@ -14,8 +14,7 @@ function Contact() {
             <input className="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject" />
             <input className="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment" />
             <button className="w3-button w3-black w3-section" type="submit">
-              <i className="fa fa-paper-plane" /> SEND MESSAGE
-            </button>
+              <i className="fa fa-paper-plane" /> SEND MESSAGE</button>
           </form>
         </div>
         {/* Image of location/map */}
